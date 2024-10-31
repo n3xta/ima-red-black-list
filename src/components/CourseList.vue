@@ -20,8 +20,9 @@
       fetch('https://raw.githubusercontent.com/n3xta/ima-red-black-list/main/public/courses.json')
         .then((response) => response.json())
         .then((data) => {
-          this.courses = data.map((course) => ({
+          this.courses = data.map((course,index) => ({
             ...course,
+            id: course.id || `${Date.now()}-${index}`,
             upvotes: 0,
             downvotes: 0,
           }));
@@ -37,7 +38,6 @@
         if (course) course.downvotes++;
       }
     }
-
   };
   </script>
   
