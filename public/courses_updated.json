@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Capstone",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Collective Play",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Big Ideas in the History and Future of Technology",
+        "type": "Major",
+        "category": "Tech & Society"
+    },
+    {
+        "name": "Designing Interfaces for Live Performance",
+        "type": "Major",
+        "category": "Physical Computing"
+    },
+    {
+        "name": "Immersive Experiences",
+        "type": "Major",
+        "category": "Media Arts"
+    },
+    {
+        "name": "Introduction to Fabrication",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Networked Media",
+        "type": "Major",
+        "category": "Programming & Data"
+    },
+    {
+        "name": "Reading and Writing Electronic Text",
+        "type": "Major",
+        "category": "Programming & Data"
+    },
+    {
+        "name": "The Code of Music",
+        "type": "Major",
+        "category": "Programming & Data"
+    },
+    {
+        "name": "Introduction to Machine Learning for the Arts",
+        "type": "Major",
+        "category": "Programming & Data"
+    },
+    {
+        "name": "Internet Famous",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Creative Computing",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Performative Avatars",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Introduction to 3D Printing",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Quick Introduction to Physical Computing",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Communications Lab",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Creative Approaches to Emerging Media",
+        "type": "Major",
+        "category": "Project Development & Research"
+    },
+    {
+        "name": "Fairy Tales for The 21st Century",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Introduction to Assistive Technology",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "User Experience Design",
+        "type": "Major",
+        "category": "Design & Fabrication"
+    },
+    {
+        "name": "Code!",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Code! 2",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Design Fundamentals",
+        "type": "Major",
+        "category": "Design & Fabrication"
+    },
+    {
+        "name": "Real-Time Media",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Design: Information Design",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Fabrication: Digital Fabrication",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Physical Computing and Experimental Interfaces: Physical Computing",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Programming and Data: New Realities",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Programming and Data: Front End Web",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Collective narrative",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Paper Art: History & Practice",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Computation and Data: Actual, Factual: Data Literacy for Creatives",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Video Art",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Critical Experiences",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "OK Robot Reboot",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Physical Computing and Experimental Interfaces: Physical Interaction Art",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Making Physical Game Interfaces",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art- Alter Egos",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Introduction to Digital Fabrication",
+        "type": "Major",
+        "category": "Design & Fabrication"
+    },
+    {
+        "name": "Chatbots for Arts Sake",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Experimental Photography",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Re:Code",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "IMA Cohort: Community is a Practice",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Animation: Methods of Motion",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Critical & Expansive Audio",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Playful Experiences",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Bio-designing the Future of Food",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Electronic Rituals",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: 100 Days of Making",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Physical Computing and Experimental Interfaces: Adapting Everyday Items",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Content Strategy and the Production of Ideas",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Projection Mapping 101",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Art: Real-Time Social Spaces",
+        "type": "Elective",
+        "category": "Elective"
+    },
+    {
+        "name": "Topics in Media Arts: Intro To Wearables: Adorning the Head and Face for Communication",
+        "type": "Elective",
+        "category": "Elective"
+    }
+]
