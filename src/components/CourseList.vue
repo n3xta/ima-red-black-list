@@ -18,7 +18,7 @@
     },
     created() {
       // 加载课程数据，可以替换为从文件或 API 获取的数据
-      fetch('https://n3xta.github.io/ima-red-black-list/courses.json')
+      fetch('https://n3xta.github.io/ima-red-black-list/public/courses.json')
         .then((response) => response.json())
         .then((data) => {
           // 初始化点赞和点踩数据
