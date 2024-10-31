@@ -30,13 +30,14 @@
     methods: {
       upvote(id) {
         const course = this.courses.find((c) => c.id === id);
-        course.upvotes++;
+        if (course) course.upvotes++;
       },
       downvote(id) {
         const course = this.courses.find((c) => c.id === id);
-        course.downvotes++;
-      },
-    },
+        if (course) course.downvotes++;
+      }
+    }
+
   };
   </script>
   
