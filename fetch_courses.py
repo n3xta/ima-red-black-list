@@ -3,26 +3,33 @@ from bs4 import BeautifulSoup
 import json
 
 def fetch_courses():
-    url = "https://itp.nyu.edu/ima/category/courses/"
+    base_url = "https://itp.nyu.edu/ima/category/courses/page/"
     headers = {'User-Agent': 'Mozilla/5.0'}
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        print("Failed to retrieve the webpage")
-        return
-
-    soup = BeautifulSoup(response.text, 'html.parser')
     courses = []
+    page = 1
 
-    # 找到课程标题元素
-    course_elements = soup.find_all('h2', class_='wp-block-post-title')
+    while True:
+        url = f"{base_url}{page}/"
+        response = requests.get(url, headers=headers)
+        if response.status_code != 200:
+            break  # Exit if no more pages are found
 
-    for course in course_elements:
-        course_name = course.get_text(strip=True)
-        courses.append({"name": course_name})
+        soup = BeautifulSoup(response.text, 'html.parser')
+        course_elements = soup.find_all('h2', class_='wp-block-post-title')
 
+        if not course_elements:
+            break  # Exit loop if no courses are found on this page
+
+        for course in course_elements:
+            course_name = course.get_text(strip=True)
+            courses.append({"name": course_name})
+
+        page += 1  # Go to the next page
+
+    # Save to JSON
     with open('public/courses.json', 'w', encoding='utf-8') as f:
         json.dump(courses, f, ensure_ascii=False, indent=4)
-    
+
     print("Courses data saved to public/courses.json")
 
 if __name__ == "__main__":
